@@ -1,0 +1,56 @@
+.Footer__container {
+  background-color: black;
+  color: #37dfeb;
+  padding: 2%;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.Footer__container p {
+  margin: 0;
+}
+
+.Footer__container nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Footer__container nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.Footer__container nav ul li a {
+  color: #51eee7;
+  text-decoration: none;
+}
+
+.Footer__container nav ul li a:hover {
+  text-decoration: underline;
+}
+
+    @media screen and (min-width: 1440px) {
+      .Footer__container{
+        font-size: 18px;
+      }
+    }
+  
+    @media (width:600px) {
+      .Footer__container {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+      }
+    }
+  
+    @media (width:1080px) {
+      .Footer__container {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+      }
+    }
+ 
+    
